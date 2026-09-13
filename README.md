@@ -93,7 +93,7 @@ SAM-NER/
 └── README.md
 ```
 
-# Note: You need to verify whether the data or model paths mentioned in all the scripts are correct.
+Note: You need to verify whether the data or model paths mentioned in all the scripts are correct.
 
 # Build Dataset
 ## Training Datasets
