@@ -91,6 +91,7 @@ SAM-NER/
 │   └── tools.py
 │
 └── README.md
+```
 
 # Note: You need to verify whether the data or model paths mentioned in all the scripts are correct.
 
