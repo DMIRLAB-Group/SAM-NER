@@ -1,0 +1,17 @@
+{
+    "person": "Entities representing specific individuals identified by their proper names, including real people, fictional characters, nicknames, and aliases.",
+    "organization": "Entities representing structured groups of people working together for a common purpose, including corporations, government agencies, NGOs, musical bands, political parties, and educational institutions.",
+    "location": "Entities representing spatial or geographic regions, including countries, cities, administrative divisions, physical facilities, landmarks, and public spaces.",
+    "time": "Entities denoting temporal concepts, including specific dates, times, durations, eras, frequencies, and time intervals.",
+    "biology": "Entities related to living organisms and taxonomy, including animal and plant species, families, and general biological classifications.",
+    "medicine": "Entities related to healthcare and biomedical sciences, including diseases, drugs, medical procedures, anatomical structures, physiological processes, and clinical concepts.",
+    "food": "Entities related to consumables, including ingredients, prepared dishes, beverages, and culinary concepts.",
+    "vehicle": "Entities representing manufactured devices designed for transportation, including cars, aircraft, ships, spacecraft, and their specific models or classes.",
+    "creative_work": "Entities representing distinct artistic or intellectual creations, such as books, songs, movies, video games, software titles, and media franchises.",
+    "event": "Entities representing specific occurrences or organized activities happening at a specific time and place, including festivals, wars, sports matches, conferences, and natural disasters.",
+    "artifact": "Entities representing man-made objects with specific functions, including tools, instruments, gadgets, weapons, and consumer goods.",
+    "computer_science": "Entities related to computing and technology, including programming languages, algorithms, software architectures, technical protocols, digital metrics, and IT terminology.",
+    "political": "Entities related to governance, social structures, and ideologies, including laws, treaties, policies, religious groups, ethnicities, and sociopolitical systems.",
+    "science": "Entities related to scientific disciplines and natural phenomena, including academic fields, chemical elements, compounds, celestial bodies, and scientific theories.",
+    "misc": "Entities that cannot be clearly classified into the specific categories above, serving as a catch-all for other named entities."
+}

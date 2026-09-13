@@ -1,0 +1,81 @@
+{
+  "ai": {
+    "programlang": "The name of programming language, such as Java and Python.",
+    "person": "The name of a person should be annotated as a person entity.",
+    "researcher": "The researcher entity. It should be a person entity and if a person is working on research (including professor, Ph.D. student, researcher in companies, and etc), you should label it as a `researcher` instead of a `person`.",
+    "conference": "The conference entity. It contains conference and journal entities.If an organisation belongs to a conference, you should label it as a `conference` instead of a `organisation`.",
+    "university": "The name of university. It should be a organisation entity and if an organisation belongs to university, you should label it as a `university` instead of a `organisation`.",
+    "algorithm": "The name of algorithm, referring to computational methods, learning algorithms, or model architectures used to solve AI tasks. It contains algorithms (e.g., decision trees, maximum likelihood estimate) and models (e.g, CNN, HMM and LSTM).",
+    "field": "The name of research field in artificial intelligence, refers to the research direction or field itself, rather than a specific task. such as machine learning, deep learning, artificial intelligence and natural language processing.",
+    "organisation": "The name of organization.",
+    "metrics": "The name of evaluation metrics in artificial intelligence, refers to a measurement method used to quantitatively evaluate the performance of a model or system on a specific task. such as F1-score, accuracy, precision, recall, BLEU and mean average precision.",
+    "location": "The name of location, including place, bridge, city, county and etc.",
+    "country": "The name of country. If a location belongs to country, you should label it as `country` instead of `location`.",
+    "task": "The name of task in artificial intelligence, refers to the research tasks that need to be solved in the field. such as machine translation, object detection, optical character recognition(OCR), classification, statistics, data analysis and supervised learning.",
+    "product": "The name of product in artificial intelligence, referring to concrete software, systems, platforms, toolkits, or embodied agents that implement or apply AI technologies. such as software (e.g. Excel, MATLAB), system (e.g. WordNet, facial recognition system, database system), robot(e.g. a certain kind of robot like Pepper), framework and toolkit (e.g. Tensorflow, PyTorch and Kaldi toolkit).",
+    "misc": "An entity needs to be classified as the miscellaneous type if it does not belong to any other category."
+  },
+
+  "literature": {
+    "book": "The name of book.",
+    "literarygenre": "The name of literary genre, such as novel and science fiction.",
+    "person": "The name of a person should be annotated as a person entity.",
+    "writer": "The writer entity. It should be a person entity and if a person is working on literature (including writer, novelist, scriptwriter, poet, and etc), you should label it as a `writer` instead of a `person`.",
+    "event": "Name of activities or events related to literature.",
+    "poem": "The name of poem.",
+    "organisation": "The name of organization.",
+    "magazine": "The name of magazine that publishes articles as well as any other literature work.",
+    "location": "The name of location, including place, bridge, city, county and etc.",
+    "award": "Name of prizes awarded to literary works or authors.",
+    "country": "The name of country. If a location belongs to country, you should label it as `country` instead of `location`.",
+    "misc": "An entity needs to be classified as the miscellaneous type if it does not belong to any other category."
+  },
+
+  "music": {
+    "person": "The name of a person should be annotated as a person entity.",
+    "musicalartist": "The name of musical artist. It should be a person entity and if a person is working on the music area (e.g., he/she is a singer, composer, or songwriter), you should label it as a musical artist entity instead of a person entity.",
+    "band": "The name of band. If an organization belongs to a band, you should label it as a band entity instead of an organization entity.",
+    "album": "The name of album.",
+    "song": "The name of song.",
+    "musicgenre": "The name of music genre, such as country music, folk music and jazz.",
+    "event": "Name of events or activities related to music.",
+    "organisation": "The name of organization.",
+    "location": "The name of location, including place, bridge, city, county and etc.",
+    "award": "Name of prizes awarded to musical works or musicians.",
+    "country": "The name of country. If a location belongs to country, you should label it as `country` instead of `location`.",
+    "musicalinstrument": "The name of musical instrument, such as piano.",
+    "misc": "An entity needs to be classified as the miscellaneous type if it does not belong to any other category."
+  },
+
+  "politics": {
+    "person": "The name of a person should be annotated as a person entity.",
+    "politician": "The name of politician. It should be a person entity and if a person entity is a politician, you should label this person as a politician entity instead of a person entity.",
+    "organisation": "The name of organization.",
+    "politicalparty": "The name of political party. If an organization entity is a political party, you should label it as a political entity instead of an organization entity.",
+    "event": "Name of event, which includes festival, war, summit, Campaign, and etc.",
+    "election": "The name of election. If an event entity is an election event, you should label it as an election entity instead of an event entity.",
+    "location": "The name of location, including place, bridge, city, county and etc.",
+    "country": "The name of country. If a location belongs to country, you should label it as `country` instead of `location`.",
+    "misc": "An entity needs to be classified as the miscellaneous type if it does not belong to any other category."
+  },
+
+  "science": {
+    "person": "The name of a person should be annotated as a person entity.",
+    "scientist": "The name of scientist.It should be a person entity and if a person entity is a scientist, you should label this person as a scientist entity instead of a person entity.",
+    "astronomicalobject": "The name of astronomical object.",
+    "event": "Name of events or activities related to natural science.",
+    "discipline": "The name of discipline. It contains the areas and subareas of biology, chemistry and astrophysics, such as physics, chemistry, biology, astrophysics, quantum chemistry, and technological physics.",
+    "university": "The name of university. It should be a organisation entity and if an organisation belongs to university, you should label it as a `university` instead of a `organisation`",
+    "enzyme": "The name of enzyme.Notice that enzyme is a special type of protein. Hence, if a protein entity is an enzyme, you should label this protein as an enzyme entity instead of a protein entity.",
+    "protein": "The name of protein.",
+    "organisation": "The name of organization.",
+    "academicjournal": "The name of academic journal.",
+    "theory": "The theory entity, referring to scientific theories or theoretical frameworks that explain natural phenomena or governing principles. It includes theory entities, such as ptolemaic planetary theories.",
+    "location": "The name of location, including place, bridge, city, county and etc.",
+    "award": "The name of prizes awarded to natural science works or natural scientist.",
+    "country": "The name of country. If a location belongs to country, you should label it as `country` instead of `location`.",
+    "chemicalelement": "The name of chemical element. Basically, this category contains the chemical elements from the periodic table.",
+    "chemicalcompound": "The name of chemical compound. If a chemical compound entity do not belong to protein or enzyme, you should label it as a chemical compound entity.",
+    "misc": "An entity needs to be classified as the miscellaneous type if it does not belong to any other category."
+  }
+}

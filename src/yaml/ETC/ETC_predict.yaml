@@ -1,0 +1,22 @@
+# models
+model_name_or_path: SAM-NER/Meta-Llama-3-8B-Instruct
+
+# method
+do_predict: True
+per_device_eval_batch_size: 8
+predict_with_generate: true
+cutoff_len: 4096
+max_new_tokens: 4096
+top_p: 0.1
+temperature: 0.01
+repetition_penalty: 1.1
+bf16: true
+
+# dataset
+dataset_dir: SAM-NER/data/crossNER/module4_ETC/calibration
+eval_dataset: ai  # "ai", "literature", "music", "politics", "science"
+template: llama3
+
+
+# output
+output_dir: SAM-NER/crossNER/module4_ETC/Llama3-8B

@@ -1,0 +1,76 @@
+{
+    "person": [
+        "actor", "character", "director", "mythical figure", "person"
+    ],
+    "人": [
+        "人名", "姓名", "人物"
+    ],
+    "organization": [
+        "organization", "media"
+    ],
+    "组织机构": [
+        "公司", "政府", "机构", "组织机构"
+    ],
+    "location": [
+        "Amenity", "Location", "location", "exact location", "geographical phenomenon",
+        "geographical social political", "facility", "road", "river", "area"
+    ],
+    "位置": [
+        "景点", "地址", "地理位置", "籍贯", "国籍"
+    ],
+    "biology": [
+        "animal", "plant", "biology"
+    ],
+    "medicine": [
+        "Anatomy", "DNA", "RNA", "GENE", "protein",
+        "cell line", "cell type", "disease", "Disease", "biomedical", "medicine"
+    ],
+    "food": [
+        "Cuisine", "Dish", "food", "Restaurant Name", "review"
+    ],
+    "vehicle": [
+        "vehicle", "vehicle model", "vehicle range", "vehicle type",
+        "vehicle velocity", "brand of vehicle", "color of vehicle",
+        "orientation of vehicle", "position of vehicle",
+        "estate car", "SUV", "MPV", "hatchback", "roadster",
+        "sports car", "sedan", "coupe", "trailer", "van",
+        "truck", "motorcycle", "vintage car", "bus"
+    ],
+    "creative_work": [
+        "song", "work of art", "title", "movie", "genre", "creative_work"
+    ],
+    "作品": [
+        "书名", "游戏", "电影"
+    ],
+    "event": [
+        "event", "plot"
+    ],
+    "artifact": [
+        "instrument", "product", "artifact"
+    ],
+    "computer_science": [
+        "application", "enabling technology", "concept or principle",
+        "process characterization", "process parameter",
+        "machine or equipment", "engineering feature",
+        "machanical property", "manufacturing process",
+        "manufacturing standard", "computer_science"
+    ],
+    "political": [
+        "law", "national religious political", "political"
+    ],
+    "政治": [
+        "民族"
+    ],
+    "science": [
+        "astronomical object", "language", "material", "Chemical", "science"
+    ],
+    "科学": [
+        "专业"
+    ],
+    "misc": [
+        "else", "misc"
+    ],
+    "其他": [
+        "学历", "职位"
+    ]
+}

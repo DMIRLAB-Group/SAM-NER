@@ -1,0 +1,7 @@
+{
+    "schema":[
+      "person", "organization", "location", "biology", "medicine", "food", "vehicle",
+      "creative_work", "event", "artifact", "computer_science", "political", "science",
+      "misc"
+    ]
+}

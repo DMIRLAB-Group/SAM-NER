@@ -1,0 +1,11 @@
+{
+  "ai": ["programlang", "person", "researcher", "conference", "university", "algorithm", "field", "organisation", "metrics", "location", "country", "task", "product"],
+
+  "literature": ["book", "literarygenre", "person", "writer", "event", "poem", "organisation", "magazine", "location", "award", "country"],
+
+  "music": ["person", "musicalartist", "band", "album", "song", "musicgenre", "event", "organisation", "location", "award", "country", "musicalinstrument"],
+
+  "politics": ["person", "politician", "organisation", "politicalparty", "event", "election", "location", "country"],
+
+  "science": ["person", "scientist", "astronomicalobject", "event", "discipline", "university", "enzyme", "protein", "organisation", "academicjournal", "theory", "location", "award", "country", "chemicalelement", "chemicalcompound"]
+}

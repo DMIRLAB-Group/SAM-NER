@@ -1,0 +1,21 @@
+# models path
+model_name_or_path: SAM-NER/models/Meta-Llama-3-8B-Instruct
+# path of IEPile lora
+adapter_name_or_path: SAM-NER/models/iepile_lora
+# method
+do_predict: True
+per_device_eval_batch_size: 16
+predict_with_generate: true
+max_new_tokens: 1024
+top_p: 0.1
+temperature: 0.01
+repetition_penalty: 1.1
+bf16: true
+
+# dataset
+dataset_dir: SAM-NER/data/crossNER/module1_ED/test
+eval_dataset: ai  # "ai", "literature", "music", "politics", "science"
+template: llama3
+
+# output
+output_dir: SAM-NER/data/crossNER/module1_ED/Llama3-8B
